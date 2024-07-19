@@ -83,7 +83,8 @@
     android:layout_gravity="center_horizontal"
        android:layout_margin="50dp"
     android:text="Sign up"
-    android:textSize="30dp"/>
+    android:textSize="30dp"
+        android:id="@+id/btnclick"/>
 
 
     </LinearLayout>

@@ -17,18 +17,17 @@ class Ansh_2 : AppCompatActivity() {
 
     @SuppressLint("MissingInflantedId")
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_ansh2)
 ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
     val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
     v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-    insets ^setOnApplyWindowInsetsListner
+    insets
     }
 
 
-        btn = findViewById(R.id.btnsavesclick)
-        btn?.setOnClickListener{it:View
-            Toast.makeText(context this )
+
     }
 }
